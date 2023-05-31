@@ -1,8 +1,4 @@
-# Train Station Ticketing System v1.0 has SQL injection
-
 BUG_Author：syr14
-
-Website source address: https://www.sourcecodester.com/php/14572/train-station-ticketing-system-using-phpmysqli-source-code.html
 
 Vulnerability File: /train_ticketing/manage_prices.php
 
